@@ -9,4 +9,11 @@ pip install grpcio
 
 ``` shell
 python3 client.py --wavepath /path/to/wavefile --text reference_text
+
+usage: client.py [-h] [--wavepath WAVEPATH] [--text TEXT]
+
+options:
+  -h, --help           show this help message and exit
+  --wavepath WAVEPATH  The path to wave file
+  --text TEXT          The reference text
 ```
