@@ -1,6 +1,6 @@
 # mdd_grpc_client
 ``` shell
-git clone https://github.com/oshindow/mdd_grpc_client.git
+git clone https://github.com/oshindow/mdd_grpc.git
 cd mdd_grpc_client
 pip install grpcio
 ```
