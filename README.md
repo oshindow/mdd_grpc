@@ -7,4 +7,4 @@ pip install grpcio
 
 **Modify the server address and port in `client.py`**
 
-python3 client.py
+python3 client.py --wavepath /path/to/wavefile --text reference text
