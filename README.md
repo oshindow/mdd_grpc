@@ -28,6 +28,7 @@ ports
 
 - 8889 for Pitch-Aware RNN-T
 
+- 8800 for Pitch-Aware RNN-T with score
 ### Run
 
 ``` shell
