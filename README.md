@@ -24,11 +24,11 @@ address
 - smc-gpu1.d2.comp.nus.edu.sg
 
 ports
-- 8888 for whisper-pinyin
+- 8888 for whisper-pinyin (Will **NOT** process with groundtruth text; random text is ok. e.g. text="啊啊啊")
 
-- 8889 for Pitch-Aware RNN-T
+- 8889 for Pitch-Aware RNN-T (Will **NOT** process with groundtruth text; random text is ok. e.g. text="啊啊啊")
 
-- 8800 for Pitch-Aware RNN-T with score
+- 8800 for Pitch-Aware RNN-T with score (Process with groundtruth text; requires exact groundtruth text)
 ### Run
 
 ``` shell
