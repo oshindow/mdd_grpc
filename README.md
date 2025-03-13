@@ -1,4 +1,4 @@
-### Requirement
+### Requirements
 ``` shell
 git clone https://github.com/oshindow/mdd_grpc.git
 cd mdd_grpc_client
