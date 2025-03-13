@@ -19,11 +19,11 @@ sox youraudio.wav -r 16000 -b 16 -c 1 youraudio_16k_16b_1c.wav
 Output:
 - pinyin sequence: ['le2', 'le2', 'le4', 'qv1', 'xiang4', 'xiang4', 'tian1', 'ke1', 'bai2', 'mao2', 'fu2', 'li4', 'shui3', 'hong2', 'zhang3', 'bo1', 'qing1', 'bo1']
 
-### address & port
-address
+### Address & Ports
+Address
 - smc-gpu1.d2.comp.nus.edu.sg
 
-ports
+Ports
 - 8888 for whisper-pinyin (Will **NOT** process with groundtruth text; random text is ok. e.g. text="啊啊啊")
 
 - 8889 for Pitch-Aware RNN-T (Will **NOT** process with groundtruth text; random text is ok. e.g. text="啊啊啊")
