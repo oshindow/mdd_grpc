@@ -15,9 +15,12 @@ service Service {
 };
 
 message Character {
-    repeated string reference_phone = 1;
-    repeated string recognized_phone = 2;
-    repeated float score_phone = 3;
-    string xmin = 4;
-    string xmax = 5;
+    string reference_pinyin = 1;
+    repeated string reference_phone = 2;
+    repeated string recognized_phone = 3;
+    string recognized_pinyin = 4;
+    repeated float score_phone = 5;
+    string xmin = 6;
+    string xmax = 7;
+    string summary = 8;
 }

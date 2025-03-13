@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\rservice.proto\")\n\x07Request\x12\x10\n\x08waveform\x18\x01 \x01(\x0c\x12\x0c\n\x04text\x18\x02 \x01(\t\"0\n\x08Response\x12$\n\x10scored_character\x18\x01 \x03(\x0b\x32\n.Character\"o\n\tCharacter\x12\x17\n\x0freference_phone\x18\x01 \x03(\t\x12\x18\n\x10recognized_phone\x18\x02 \x03(\t\x12\x13\n\x0bscore_phone\x18\x03 \x03(\x02\x12\x0c\n\x04xmin\x18\x04 \x01(\t\x12\x0c\n\x04xmax\x18\x05 \x01(\t2+\n\x07Service\x12 \n\tRecognize\x12\x08.Request\x1a\t.Responseb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\rservice.proto\")\n\x07Request\x12\x10\n\x08waveform\x18\x01 \x01(\x0c\x12\x0c\n\x04text\x18\x02 \x01(\t\"0\n\x08Response\x12$\n\x10scored_character\x18\x01 \x03(\x0b\x32\n.Character\"\xb5\x01\n\tCharacter\x12\x18\n\x10reference_pinyin\x18\x01 \x01(\t\x12\x17\n\x0freference_phone\x18\x02 \x03(\t\x12\x18\n\x10recognized_phone\x18\x03 \x03(\t\x12\x19\n\x11recognized_pinyin\x18\x04 \x01(\t\x12\x13\n\x0bscore_phone\x18\x05 \x03(\x02\x12\x0c\n\x04xmin\x18\x06 \x01(\t\x12\x0c\n\x04xmax\x18\x07 \x01(\t\x12\x0f\n\x07summary\x18\x08 \x01(\t2+\n\x07Service\x12 \n\tRecognize\x12\x08.Request\x1a\t.Responseb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -25,8 +25,8 @@ if _descriptor._USE_C_DESCRIPTORS == False:
   _globals['_REQUEST']._serialized_end=58
   _globals['_RESPONSE']._serialized_start=60
   _globals['_RESPONSE']._serialized_end=108
-  _globals['_CHARACTER']._serialized_start=110
-  _globals['_CHARACTER']._serialized_end=221
-  _globals['_SERVICE']._serialized_start=223
-  _globals['_SERVICE']._serialized_end=266
+  _globals['_CHARACTER']._serialized_start=111
+  _globals['_CHARACTER']._serialized_end=292
+  _globals['_SERVICE']._serialized_start=294
+  _globals['_SERVICE']._serialized_end=337
 # @@protoc_insertion_point(module_scope)
