@@ -2,8 +2,8 @@
 Clone this repository and install the required dependencies:
 ``` shell
 git clone https://github.com/oshindow/mdd_grpc.git
-cd mdd_grpc_client
-pip install grpcio
+cd mdd_grpc
+pip install grpcio_tools
 ```
 
 Ensure your input audio is in the correct format. If necessary, convert it using `sox`:
